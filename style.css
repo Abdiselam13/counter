@@ -1,0 +1,42 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.container{
+    text-align: center;
+     margin-top: 16%;
+     font-size: 20px;
+     font-family: sans-serif;
+      font-weight: 700;
+
+}
+h2{
+    margin-bottom: 13px;
+}
+span{
+    font-size: 25px;
+}
+
+.button-container{
+    margin-top: 25px;
+
+}
+.btn{
+    padding: 8px 25px;
+    background-color: lightblue;
+    border: 1px solid rgb(60, 148, 177);
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+}
+.btn:hover{
+    color: white;
+    background-color: skyblue;
+}
